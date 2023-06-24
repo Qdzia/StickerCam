@@ -6,14 +6,18 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let label = UILabel()
+        label.text = "Welcome to StickerCam!"
+        label.textAlignment = .center
+        view.addSubview(label)
+        
+        label.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
     }
-
-
 }
-

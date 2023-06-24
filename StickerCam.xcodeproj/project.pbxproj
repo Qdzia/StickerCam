@@ -16,6 +16,7 @@
 		106BC3D12A4750F80032686C /* StickerCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3D02A4750F80032686C /* StickerCamTests.swift */; };
 		106BC3DB2A4750F80032686C /* StickerCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3DA2A4750F80032686C /* StickerCamUITests.swift */; };
 		106BC3DD2A4750F80032686C /* StickerCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3DC2A4750F80032686C /* StickerCamUITestsLaunchTests.swift */; };
+		1088859D2A475952001CE2BC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1088859C2A475952001CE2BC /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1088859D2A475952001CE2BC /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = StickerCam;
+			packageProductDependencies = (
+				1088859C2A475952001CE2BC /* SnapKit */,
+			);
 			productName = StickerCam;
 			productReference = 106BC3B62A4750F70032686C /* StickerCam.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 106BC3AD2A4750F70032686C;
+			packageReferences = (
+				1088859B2A475952001CE2BC /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 106BC3B72A4750F70032686C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -596,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1088859B2A475952001CE2BC /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1088859C2A475952001CE2BC /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1088859B2A475952001CE2BC /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 106BC3AE2A4750F70032686C /* Project object */;
 }
