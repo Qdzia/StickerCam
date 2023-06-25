@@ -23,7 +23,7 @@ enum ModuleFactory {
         navigationController.viewControllers = [viewer]
         return navigationController
     }
-    
+
     static func setUpModule<V: Viewable, I: Interactable, P: Presentable, R: Routable>(
         viewContorller: inout V,
         interactor: inout I,

@@ -75,9 +75,9 @@ opt_in_rules:
   - xct_specific_matcher
   - yoda_condition
   - force_unwrapping
+  - trailing_whitespace
 
 disabled_rules:
   - file_name
-  - trailing_whitespace
   - nesting
   - nslocalizedstring_key
