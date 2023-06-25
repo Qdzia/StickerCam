@@ -80,3 +80,4 @@ disabled_rules:
   - file_name
   - trailing_whitespace
   - nesting
+  - nslocalizedstring_key
