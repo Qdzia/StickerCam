@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10660D112A4832AF003BD758 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D102A4832AF003BD758 /* Interactor.swift */; };
+		10660D132A4832C7003BD758 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D122A4832C7003BD758 /* Presenter.swift */; };
+		10660D152A4832EF003BD758 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D142A4832EF003BD758 /* Router.swift */; };
+		10660D172A483324003BD758 /* Viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D162A483324003BD758 /* Viewer.swift */; };
+		10660D192A4833A0003BD758 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D182A4833A0003BD758 /* ModuleFactory.swift */; };
+		10660D1F2A48372C003BD758 /* CameraInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D1E2A48372C003BD758 /* CameraInteractor.swift */; };
+		10660D212A483770003BD758 /* CameraPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D202A483770003BD758 /* CameraPresenter.swift */; };
+		10660D232A48377B003BD758 /* CameraRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D222A48377B003BD758 /* CameraRouter.swift */; };
+		10660D252A483786003BD758 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D242A483786003BD758 /* CameraViewController.swift */; };
 		106BC3BA2A4750F70032686C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3B92A4750F70032686C /* AppDelegate.swift */; };
 		106BC3BC2A4750F70032686C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3BB2A4750F70032686C /* SceneDelegate.swift */; };
-		106BC3BE2A4750F70032686C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3BD2A4750F70032686C /* ViewController.swift */; };
-		106BC3C12A4750F70032686C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106BC3BF2A4750F70032686C /* Main.storyboard */; };
 		106BC3C32A4750F80032686C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 106BC3C22A4750F80032686C /* Assets.xcassets */; };
 		106BC3C62A4750F80032686C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106BC3C42A4750F80032686C /* LaunchScreen.storyboard */; };
 		106BC3D12A4750F80032686C /* StickerCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3D02A4750F80032686C /* StickerCamTests.swift */; };
@@ -38,11 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10660D102A4832AF003BD758 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		10660D122A4832C7003BD758 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		10660D142A4832EF003BD758 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		10660D162A483324003BD758 /* Viewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewer.swift; sourceTree = "<group>"; };
+		10660D182A4833A0003BD758 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		10660D1E2A48372C003BD758 /* CameraInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraInteractor.swift; sourceTree = "<group>"; };
+		10660D202A483770003BD758 /* CameraPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPresenter.swift; sourceTree = "<group>"; };
+		10660D222A48377B003BD758 /* CameraRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRouter.swift; sourceTree = "<group>"; };
+		10660D242A483786003BD758 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		106BC3B62A4750F70032686C /* StickerCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		106BC3B92A4750F70032686C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		106BC3BB2A4750F70032686C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		106BC3BD2A4750F70032686C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		106BC3C02A4750F70032686C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		106BC3C22A4750F80032686C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		106BC3C52A4750F80032686C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		106BC3C72A4750F80032686C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +94,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10660D0F2A48329A003BD758 /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				10660D102A4832AF003BD758 /* Interactor.swift */,
+				10660D122A4832C7003BD758 /* Presenter.swift */,
+				10660D142A4832EF003BD758 /* Router.swift */,
+				10660D162A483324003BD758 /* Viewer.swift */,
+				10660D182A4833A0003BD758 /* ModuleFactory.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		10660D1C2A483712003BD758 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				10660D1D2A48371C003BD758 /* Camera */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		10660D1D2A48371C003BD758 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				10660D1E2A48372C003BD758 /* CameraInteractor.swift */,
+				10660D202A483770003BD758 /* CameraPresenter.swift */,
+				10660D222A48377B003BD758 /* CameraRouter.swift */,
+				10660D242A483786003BD758 /* CameraViewController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		10660D262A483DC8003BD758 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				106BC3B92A4750F70032686C /* AppDelegate.swift */,
+				106BC3BB2A4750F70032686C /* SceneDelegate.swift */,
+				106BC3C22A4750F80032686C /* Assets.xcassets */,
+				106BC3C42A4750F80032686C /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		106BC3AD2A4750F70032686C = {
 			isa = PBXGroup;
 			children = (
@@ -104,13 +160,10 @@
 		106BC3B82A4750F70032686C /* StickerCam */ = {
 			isa = PBXGroup;
 			children = (
-				106BC3B92A4750F70032686C /* AppDelegate.swift */,
-				106BC3BB2A4750F70032686C /* SceneDelegate.swift */,
-				106BC3BD2A4750F70032686C /* ViewController.swift */,
-				106BC3BF2A4750F70032686C /* Main.storyboard */,
-				106BC3C22A4750F80032686C /* Assets.xcassets */,
-				106BC3C42A4750F80032686C /* LaunchScreen.storyboard */,
 				106BC3C72A4750F80032686C /* Info.plist */,
+				10660D262A483DC8003BD758 /* App */,
+				10660D1C2A483712003BD758 /* Modules */,
+				10660D0F2A48329A003BD758 /* VIP */,
 			);
 			path = StickerCam;
 			sourceTree = "<group>";
@@ -246,7 +299,6 @@
 				106BC3C62A4750F80032686C /* LaunchScreen.storyboard in Resources */,
 				106BC3C32A4750F80032686C /* Assets.xcassets in Resources */,
 				108885A02A476896001CE2BC /* README.md in Resources */,
-				106BC3C12A4750F70032686C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +345,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106BC3BE2A4750F70032686C /* ViewController.swift in Sources */,
 				106BC3BA2A4750F70032686C /* AppDelegate.swift in Sources */,
+				10660D112A4832AF003BD758 /* Interactor.swift in Sources */,
+				10660D212A483770003BD758 /* CameraPresenter.swift in Sources */,
+				10660D172A483324003BD758 /* Viewer.swift in Sources */,
+				10660D252A483786003BD758 /* CameraViewController.swift in Sources */,
+				10660D192A4833A0003BD758 /* ModuleFactory.swift in Sources */,
+				10660D1F2A48372C003BD758 /* CameraInteractor.swift in Sources */,
 				106BC3BC2A4750F70032686C /* SceneDelegate.swift in Sources */,
+				10660D232A48377B003BD758 /* CameraRouter.swift in Sources */,
+				10660D152A4832EF003BD758 /* Router.swift in Sources */,
+				10660D132A4832C7003BD758 /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,14 +392,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		106BC3BF2A4750F70032686C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				106BC3C02A4750F70032686C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		106BC3C42A4750F80032686C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -476,7 +528,7 @@
 				INFOPLIST_FILE = StickerCam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,7 +555,7 @@
 				INFOPLIST_FILE = StickerCam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
