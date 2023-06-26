@@ -6,3 +6,8 @@
   
 */
 
+"camera_access_title" = "Dostęp do kamery";
+"camera_access_detail" = "Potrzebujemy dostępu do kamery aby aplikacja działała poprawnie";
+"camera_access_description" = "Wystąpił problem i nie mamy dosępu, możesz nadać go w ustawieniach";
+"camera_access_grant" = "Przyznaj Dostęp";
+"camera_access_open_settings" = "Otwórz Ustawienia";

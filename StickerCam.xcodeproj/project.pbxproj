@@ -14,6 +14,10 @@
 		103FD99A2A499C1000CC7F9B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9992A499C1000CC7F9B /* Log.swift */; };
 		103FD99D2A499CF900CC7F9B /* TitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD99C2A499CF900CC7F9B /* TitleSection.swift */; };
 		103FD99F2A499D2100CC7F9B /* StandardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD99E2A499D2100CC7F9B /* StandardButton.swift */; };
+		103FD9A22A499DAF00CC7F9B /* CameraPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9A12A499DAF00CC7F9B /* CameraPermissionView.swift */; };
+		103FD9A42A499DCE00CC7F9B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9A32A499DCE00CC7F9B /* GridView.swift */; };
+		103FD9A72A499E2900CC7F9B /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9A62A499E2900CC7F9B /* CameraError.swift */; };
+		103FD9A92A499E5D00CC7F9B /* FlashMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9A82A499E5D00CC7F9B /* FlashMode.swift */; };
 		10660D112A4832AF003BD758 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D102A4832AF003BD758 /* Interactor.swift */; };
 		10660D132A4832C7003BD758 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D122A4832C7003BD758 /* Presenter.swift */; };
 		10660D152A4832EF003BD758 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D142A4832EF003BD758 /* Router.swift */; };
@@ -62,6 +66,10 @@
 		103FD9992A499C1000CC7F9B /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		103FD99C2A499CF900CC7F9B /* TitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSection.swift; sourceTree = "<group>"; };
 		103FD99E2A499D2100CC7F9B /* StandardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButton.swift; sourceTree = "<group>"; };
+		103FD9A12A499DAF00CC7F9B /* CameraPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionView.swift; sourceTree = "<group>"; };
+		103FD9A32A499DCE00CC7F9B /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		103FD9A62A499E2900CC7F9B /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		103FD9A82A499E5D00CC7F9B /* FlashMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashMode.swift; sourceTree = "<group>"; };
 		10660D102A4832AF003BD758 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		10660D122A4832C7003BD758 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		10660D142A4832EF003BD758 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -139,6 +147,23 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		103FD9A02A499D9700CC7F9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				103FD9A12A499DAF00CC7F9B /* CameraPermissionView.swift */,
+				103FD9A32A499DCE00CC7F9B /* GridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		103FD9A52A499E1E00CC7F9B /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				103FD9A62A499E2900CC7F9B /* CameraError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 		10660D0F2A48329A003BD758 /* VIP */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +187,7 @@
 		10660D1D2A48371C003BD758 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				103FD9A02A499D9700CC7F9B /* Views */,
 				10660D1E2A48372C003BD758 /* CameraInteractor.swift */,
 				10660D202A483770003BD758 /* CameraPresenter.swift */,
 				10660D222A48377B003BD758 /* CameraRouter.swift */,
@@ -182,8 +208,10 @@
 		10660D292A484C42003BD758 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				103FD9A52A499E1E00CC7F9B /* Errors */,
 				103FD9972A499BF200CC7F9B /* Helpers.swift */,
 				103FD9992A499C1000CC7F9B /* Log.swift */,
+				103FD9A82A499E5D00CC7F9B /* FlashMode.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -415,12 +443,16 @@
 				10660D172A483324003BD758 /* Viewer.swift in Sources */,
 				10660D252A483786003BD758 /* CameraViewController.swift in Sources */,
 				10660D192A4833A0003BD758 /* ModuleFactory.swift in Sources */,
+				103FD9A92A499E5D00CC7F9B /* FlashMode.swift in Sources */,
 				103FD9982A499BF200CC7F9B /* Helpers.swift in Sources */,
+				103FD9A42A499DCE00CC7F9B /* GridView.swift in Sources */,
 				10660D1F2A48372C003BD758 /* CameraInteractor.swift in Sources */,
+				103FD9A72A499E2900CC7F9B /* CameraError.swift in Sources */,
 				106BC3BC2A4750F70032686C /* SceneDelegate.swift in Sources */,
 				10660D232A48377B003BD758 /* CameraRouter.swift in Sources */,
 				10660D152A4832EF003BD758 /* Router.swift in Sources */,
 				10660D2B2A484C72003BD758 /* Localized.swift in Sources */,
+				103FD9A22A499DAF00CC7F9B /* CameraPermissionView.swift in Sources */,
 				10660D132A4832C7003BD758 /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

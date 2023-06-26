@@ -6,3 +6,8 @@
   
 */
 
+"camera_access_title" = "Camera Access";
+"camera_access_detail" = "We need camera permission for app to work properly";
+"camera_access_description" = "Something went wrong, please go to settings and add permisson manually";
+"camera_access_grant" = "Grant Access";
+"camera_access_open_settings" = "Open Settings";

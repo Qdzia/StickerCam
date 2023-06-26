@@ -5,10 +5,17 @@
 //  Created by Łukasz Kudzia on 25/06/2023.
 //
 
-import Foundation
+import UIKit
 
-protocol CameraRoutingLogic {}
+@objc
+protocol CameraRoutingLogic {
+    func navigateToEditor(with image: UIImage)
+}
 
 class CameraRouter: Router, Routable {
     weak var viewController: CameraViewController?
+}
+
+extension CameraRouter: CameraRoutingLogic {
+    func navigateToEditor(with image: UIImage) {}
 }
