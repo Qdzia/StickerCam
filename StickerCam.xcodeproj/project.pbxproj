@@ -12,6 +12,8 @@
 		103FD9962A499B9300CC7F9B /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9952A499B9300CC7F9B /* Design.swift */; };
 		103FD9982A499BF200CC7F9B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9972A499BF200CC7F9B /* Helpers.swift */; };
 		103FD99A2A499C1000CC7F9B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9992A499C1000CC7F9B /* Log.swift */; };
+		103FD99D2A499CF900CC7F9B /* TitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD99C2A499CF900CC7F9B /* TitleSection.swift */; };
+		103FD99F2A499D2100CC7F9B /* StandardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD99E2A499D2100CC7F9B /* StandardButton.swift */; };
 		10660D112A4832AF003BD758 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D102A4832AF003BD758 /* Interactor.swift */; };
 		10660D132A4832C7003BD758 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D122A4832C7003BD758 /* Presenter.swift */; };
 		10660D152A4832EF003BD758 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D142A4832EF003BD758 /* Router.swift */; };
@@ -58,6 +60,8 @@
 		103FD9952A499B9300CC7F9B /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		103FD9972A499BF200CC7F9B /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		103FD9992A499C1000CC7F9B /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		103FD99C2A499CF900CC7F9B /* TitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSection.swift; sourceTree = "<group>"; };
+		103FD99E2A499D2100CC7F9B /* StandardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButton.swift; sourceTree = "<group>"; };
 		10660D102A4832AF003BD758 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		10660D122A4832C7003BD758 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		10660D142A4832EF003BD758 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -124,6 +128,15 @@
 				106BC3C42A4750F80032686C /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		103FD99B2A499CCC00CC7F9B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				103FD99C2A499CF900CC7F9B /* TitleSection.swift */,
+				103FD99E2A499D2100CC7F9B /* StandardButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		10660D0F2A48329A003BD758 /* VIP */ = {
@@ -199,6 +212,7 @@
 		106BC3B82A4750F70032686C /* StickerCam */ = {
 			isa = PBXGroup;
 			children = (
+				103FD99B2A499CCC00CC7F9B /* Components */,
 				103FD9902A499AE900CC7F9B /* Resources */,
 				10660D292A484C42003BD758 /* Utils */,
 				106BC3C72A4750F80032686C /* Info.plist */,
@@ -388,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103FD99F2A499D2100CC7F9B /* StandardButton.swift in Sources */,
 				10660D352A485DB3003BD758 /* Fonts.swift in Sources */,
 				103FD9962A499B9300CC7F9B /* Design.swift in Sources */,
 				103FD99A2A499C1000CC7F9B /* Log.swift in Sources */,
@@ -396,6 +411,7 @@
 				10660D112A4832AF003BD758 /* Interactor.swift in Sources */,
 				103FD9922A499AF800CC7F9B /* Icon.swift in Sources */,
 				10660D212A483770003BD758 /* CameraPresenter.swift in Sources */,
+				103FD99D2A499CF900CC7F9B /* TitleSection.swift in Sources */,
 				10660D172A483324003BD758 /* Viewer.swift in Sources */,
 				10660D252A483786003BD758 /* CameraViewController.swift in Sources */,
 				10660D192A4833A0003BD758 /* ModuleFactory.swift in Sources */,
