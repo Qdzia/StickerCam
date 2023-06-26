@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103FD9922A499AF800CC7F9B /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9912A499AF800CC7F9B /* Icon.swift */; };
+		103FD9942A499B2100CC7F9B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9932A499B2100CC7F9B /* Colors.swift */; };
+		103FD9962A499B9300CC7F9B /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9952A499B9300CC7F9B /* Design.swift */; };
+		103FD9982A499BF200CC7F9B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9972A499BF200CC7F9B /* Helpers.swift */; };
+		103FD99A2A499C1000CC7F9B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9992A499C1000CC7F9B /* Log.swift */; };
 		10660D112A4832AF003BD758 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D102A4832AF003BD758 /* Interactor.swift */; };
 		10660D132A4832C7003BD758 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D122A4832C7003BD758 /* Presenter.swift */; };
 		10660D152A4832EF003BD758 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D142A4832EF003BD758 /* Router.swift */; };
@@ -18,7 +23,6 @@
 		10660D252A483786003BD758 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D242A483786003BD758 /* CameraViewController.swift */; };
 		10660D2B2A484C72003BD758 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D2A2A484C72003BD758 /* Localized.swift */; };
 		10660D2E2A484E58003BD758 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10660D302A484E58003BD758 /* Localizable.strings */; };
-		10660D332A485177003BD758 /* SFIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D322A485177003BD758 /* SFIcon.swift */; };
 		10660D352A485DB3003BD758 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D342A485DB3003BD758 /* Fonts.swift */; };
 		106BC3BA2A4750F70032686C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3B92A4750F70032686C /* AppDelegate.swift */; };
 		106BC3BC2A4750F70032686C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106BC3BB2A4750F70032686C /* SceneDelegate.swift */; };
@@ -49,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		103FD9912A499AF800CC7F9B /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		103FD9932A499B2100CC7F9B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		103FD9952A499B9300CC7F9B /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		103FD9972A499BF200CC7F9B /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		103FD9992A499C1000CC7F9B /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		10660D102A4832AF003BD758 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		10660D122A4832C7003BD758 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		10660D142A4832EF003BD758 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -61,7 +70,6 @@
 		10660D2A2A484C72003BD758 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		10660D2F2A484E58003BD758 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		10660D312A484E6F003BD758 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		10660D322A485177003BD758 /* SFIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFIcon.swift; sourceTree = "<group>"; };
 		10660D342A485DB3003BD758 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		106BC3B62A4750F70032686C /* StickerCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		106BC3B92A4750F70032686C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +111,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		103FD9902A499AE900CC7F9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10660D2A2A484C72003BD758 /* Localized.swift */,
+				10660D342A485DB3003BD758 /* Fonts.swift */,
+				103FD9912A499AF800CC7F9B /* Icon.swift */,
+				103FD9932A499B2100CC7F9B /* Colors.swift */,
+				10660D302A484E58003BD758 /* Localizable.strings */,
+				103FD9952A499B9300CC7F9B /* Design.swift */,
+				106BC3C22A4750F80032686C /* Assets.xcassets */,
+				106BC3C42A4750F80032686C /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		10660D0F2A48329A003BD758 /* VIP */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,9 +162,6 @@
 			children = (
 				106BC3B92A4750F70032686C /* AppDelegate.swift */,
 				106BC3BB2A4750F70032686C /* SceneDelegate.swift */,
-				106BC3C22A4750F80032686C /* Assets.xcassets */,
-				106BC3C42A4750F80032686C /* LaunchScreen.storyboard */,
-				10660D302A484E58003BD758 /* Localizable.strings */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -149,9 +169,8 @@
 		10660D292A484C42003BD758 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				10660D2A2A484C72003BD758 /* Localized.swift */,
-				10660D322A485177003BD758 /* SFIcon.swift */,
-				10660D342A485DB3003BD758 /* Fonts.swift */,
+				103FD9972A499BF200CC7F9B /* Helpers.swift */,
+				103FD9992A499C1000CC7F9B /* Log.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -180,6 +199,7 @@
 		106BC3B82A4750F70032686C /* StickerCam */ = {
 			isa = PBXGroup;
 			children = (
+				103FD9902A499AE900CC7F9B /* Resources */,
 				10660D292A484C42003BD758 /* Utils */,
 				106BC3C72A4750F80032686C /* Info.plist */,
 				10660D262A483DC8003BD758 /* App */,
@@ -369,18 +389,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				10660D352A485DB3003BD758 /* Fonts.swift in Sources */,
+				103FD9962A499B9300CC7F9B /* Design.swift in Sources */,
+				103FD99A2A499C1000CC7F9B /* Log.swift in Sources */,
+				103FD9942A499B2100CC7F9B /* Colors.swift in Sources */,
 				106BC3BA2A4750F70032686C /* AppDelegate.swift in Sources */,
 				10660D112A4832AF003BD758 /* Interactor.swift in Sources */,
+				103FD9922A499AF800CC7F9B /* Icon.swift in Sources */,
 				10660D212A483770003BD758 /* CameraPresenter.swift in Sources */,
 				10660D172A483324003BD758 /* Viewer.swift in Sources */,
 				10660D252A483786003BD758 /* CameraViewController.swift in Sources */,
 				10660D192A4833A0003BD758 /* ModuleFactory.swift in Sources */,
+				103FD9982A499BF200CC7F9B /* Helpers.swift in Sources */,
 				10660D1F2A48372C003BD758 /* CameraInteractor.swift in Sources */,
 				106BC3BC2A4750F70032686C /* SceneDelegate.swift in Sources */,
 				10660D232A48377B003BD758 /* CameraRouter.swift in Sources */,
 				10660D152A4832EF003BD758 /* Router.swift in Sources */,
 				10660D2B2A484C72003BD758 /* Localized.swift in Sources */,
-				10660D332A485177003BD758 /* SFIcon.swift in Sources */,
 				10660D132A4832C7003BD758 /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,6 +585,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNA2T8MA7Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StickerCam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -568,6 +593,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +614,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNA2T8MA7Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StickerCam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -595,6 +622,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
