@@ -18,6 +18,10 @@
 		103FD9A42A499DCE00CC7F9B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9A32A499DCE00CC7F9B /* GridView.swift */; };
 		103FD9A72A499E2900CC7F9B /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9A62A499E2900CC7F9B /* CameraError.swift */; };
 		103FD9A92A499E5D00CC7F9B /* FlashMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9A82A499E5D00CC7F9B /* FlashMode.swift */; };
+		103FD9AC2A49C66700CC7F9B /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9AB2A49C66700CC7F9B /* EditorViewController.swift */; };
+		103FD9AE2A49C67C00CC7F9B /* EditorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9AD2A49C67C00CC7F9B /* EditorInteractor.swift */; };
+		103FD9B02A49C68500CC7F9B /* EditorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9AF2A49C68500CC7F9B /* EditorPresenter.swift */; };
+		103FD9B22A49C69900CC7F9B /* EditorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103FD9B12A49C69900CC7F9B /* EditorRouter.swift */; };
 		10660D112A4832AF003BD758 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D102A4832AF003BD758 /* Interactor.swift */; };
 		10660D132A4832C7003BD758 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D122A4832C7003BD758 /* Presenter.swift */; };
 		10660D152A4832EF003BD758 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10660D142A4832EF003BD758 /* Router.swift */; };
@@ -70,6 +74,10 @@
 		103FD9A32A499DCE00CC7F9B /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		103FD9A62A499E2900CC7F9B /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
 		103FD9A82A499E5D00CC7F9B /* FlashMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashMode.swift; sourceTree = "<group>"; };
+		103FD9AB2A49C66700CC7F9B /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		103FD9AD2A49C67C00CC7F9B /* EditorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorInteractor.swift; sourceTree = "<group>"; };
+		103FD9AF2A49C68500CC7F9B /* EditorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorPresenter.swift; sourceTree = "<group>"; };
+		103FD9B12A49C69900CC7F9B /* EditorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorRouter.swift; sourceTree = "<group>"; };
 		10660D102A4832AF003BD758 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		10660D122A4832C7003BD758 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		10660D142A4832EF003BD758 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -164,6 +172,17 @@
 			path = Errors;
 			sourceTree = "<group>";
 		};
+		103FD9AA2A49C27A00CC7F9B /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				103FD9AB2A49C66700CC7F9B /* EditorViewController.swift */,
+				103FD9AD2A49C67C00CC7F9B /* EditorInteractor.swift */,
+				103FD9AF2A49C68500CC7F9B /* EditorPresenter.swift */,
+				103FD9B12A49C69900CC7F9B /* EditorRouter.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
 		10660D0F2A48329A003BD758 /* VIP */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +198,7 @@
 		10660D1C2A483712003BD758 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				103FD9AA2A49C27A00CC7F9B /* Editor */,
 				10660D1D2A48371C003BD758 /* Camera */,
 			);
 			path = Modules;
@@ -435,6 +455,7 @@
 				103FD9962A499B9300CC7F9B /* Design.swift in Sources */,
 				103FD99A2A499C1000CC7F9B /* Log.swift in Sources */,
 				103FD9942A499B2100CC7F9B /* Colors.swift in Sources */,
+				103FD9B22A49C69900CC7F9B /* EditorRouter.swift in Sources */,
 				106BC3BA2A4750F70032686C /* AppDelegate.swift in Sources */,
 				10660D112A4832AF003BD758 /* Interactor.swift in Sources */,
 				103FD9922A499AF800CC7F9B /* Icon.swift in Sources */,
@@ -443,8 +464,11 @@
 				10660D172A483324003BD758 /* Viewer.swift in Sources */,
 				10660D252A483786003BD758 /* CameraViewController.swift in Sources */,
 				10660D192A4833A0003BD758 /* ModuleFactory.swift in Sources */,
+				103FD9AC2A49C66700CC7F9B /* EditorViewController.swift in Sources */,
 				103FD9A92A499E5D00CC7F9B /* FlashMode.swift in Sources */,
+				103FD9AE2A49C67C00CC7F9B /* EditorInteractor.swift in Sources */,
 				103FD9982A499BF200CC7F9B /* Helpers.swift in Sources */,
+				103FD9B02A49C68500CC7F9B /* EditorPresenter.swift in Sources */,
 				103FD9A42A499DCE00CC7F9B /* GridView.swift in Sources */,
 				10660D1F2A48372C003BD758 /* CameraInteractor.swift in Sources */,
 				103FD9A72A499E2900CC7F9B /* CameraError.swift in Sources */,
